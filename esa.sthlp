@@ -25,13 +25,12 @@
 {synopt: {it:model_name}}Model name, such as m1, m2, ...{p_end}
 
 {syntab: Other options}
-{synopt: {opt l:eft(left1, left2, ...)}}The left side for {help estadd}, splited by "," or specified parser using {opt parse} option. For example, estadd local {it:left#} = right#. Need a one-to-one correspondence with {opt right} and {opt type}.{p_end}
+{synopt: {opt l:eft(left1, left2, ...)}}The left side for {help estadd}, splited by "," or specified parser using {opt parse} option. For example, estadd local {it:left#} = right#. Need a one-to-one correspondence with {opt right} and {opt type} {p_end}
 
-{synopt: {opt r:ight(right1, right2, ...)}}The right side for {help estadd}, splited by "," or specified parser using {opt parse} option. For example, estadd local left# = {it:right#}. Need a one-to-one correspondence with {opt left} and {opt type}.{p_end}
+{synopt: {opt r:ight(right1, right2, ...)}}The right side for {help estadd}, splited by "," or specified parser using {opt parse} option. For example, estadd local left# = {it:right#}. Need a one-to-one correspondence with {bf:left} and {bf:type} {p_end}
+{synopt: {opt t:ype(l|s|m)}}Types specified for {help estadd}. Do not split. {it:l} for local, {it:s} for scalar, and {it:m} for matrix. For example, {opt type(ls)} means left/right1 is a {help local} and left/right2 is a {help scalar}. Need a one-to-one correspondence with {opt left} and {opt right} {p_end}
 
-{synopt: {opt t:ype(l|s|m)}}Types specified for {help estadd}. Do not split. {it:l} for local, {it:s} for scalar, and {it:m} for matrix. For example, {opt type(ls)} means left/right1 is a {help local} and left/right2 is a {help scalar}. Need a one-to-one correspondence with {opt left} and {opt right}.{p_end}
-
-{synopt: {opt p:arse(string)}}Specify a parser for {opt left} and {opt right} options. Default parser is ",". If your {help local} contains ",", you can specify ";" or other parsers.{p_end}
+{synopt: {opt p:arse(string)}}Specify a parser for {opt left} and {opt right} options. Default parser is ",". If your {help local} contains ",", you can specify ";" or other parsers {p_end}
 {synoptline}
 {p2colreset}{...}
 
