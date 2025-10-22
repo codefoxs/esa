@@ -1,5 +1,5 @@
 v 0.1.1
-d 'ESA': Estimates store with estadd
+d 'ESA': module to run estimates store with estadd
 d 
 d Distribution-Date: 20251021
 f esa.ado
